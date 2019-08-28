@@ -7,7 +7,7 @@ test:
 local-run: local-stop
 	@docker run -d --name url-monitoring-local -p8080:8080 \
 		-v $(CUR_DIR)/docker_logs:/var/log/url_monitoring $(PROJECT_NAME) server env:local
-	@sleep 5
+	@sleep 10
 	$(MAKE) local-push-config
 	@echo "Application available by http://localhost:8080"
 
