@@ -1,0 +1,28 @@
+logging:
+  level: INFO
+  loggers:
+    com.zingorn.monitoring: DEBUG
+    jobs.HttpUlrJob:
+      appenders:
+        - type: file
+          currentLogFilename: /var/log/url_monitoring/HttpUlrJob.log
+          archivedLogFilenamePattern: /var/log/url_monitoring/HttpUlrJob-%d.log.gz
+          archivedFileCount: 5
+          logFormat: "%m%n"
+
+  appenders:
+    - type: console
+    - type: file
+      currentLogFilename: /var/log/url_monitoring/application.log
+      threshold: ALL
+      archive: true
+      archivedLogFilenamePattern: /var/log/url_monitoring/application-%d.log
+      archivedFileCount: 5
+
+httpUrlClient:
+  timeout: 30s
+  minThreads: 1
+  maxThreads: 128
+  gzipEnabled: true
+  gzipEnabledForRequests: true
+

@@ -1,0 +1,8 @@
+{
+  "task1": "{\"verdict\":false,\"elapsedTime\":564,\"lastRun\":\"2019-08-18T13:11:10\",\"method\":\"GET\",\"url\":\"https://identity.flickr.com/\",\"status\":200,\"contentMatched\":false,\"statusMatched\":true}",
+  "task2": "{\"verdict\":true,\"elapsedTime\":568,\"lastRun\":\"2019-08-18T13:12:10\",\"method\":\"GET\",\"url\":\"https://www.google.com/search?q=perpetuum+mobile\",\"status\":200,\"contentMatched\":true,\"statusMatched\":true}",
+  "task3": "{\"verdict\":true,\"elapsedTime\":290,\"lastRun\":\"2019-08-18T13:13:20\",\"method\":\"GET\",\"url\":\"https://www.facebook.com/\",\"status\":200,\"contentMatched\":true,\"statusMatched\":true}",
+  "task4": "{\"verdict\":true,\"elapsedTime\":532,\"lastRun\":\"2019-08-18T13:13:20\",\"method\":\"GET\",\"url\":\"https://identity.flickr.com/login?redir=https%3A%2F%2Fwww.flickr.com%2F\",\"status\":200,\"contentMatched\":true,\"statusMatched\":true}",
+  "task5": "{\"verdict\":false,\"elapsedTime\":533,\"lastRun\":\"2019-08-18T13:14:20\",\"method\":\"GET\",\"url\":\"https://identity.flickr.com/\",\"status\":200,\"contentMatched\":false,\"statusMatched\":true}",
+  "task6": "{\"verdict\":true,\"elapsedTime\":597,\"lastRun\":\"2019-08-18T13:10:20\",\"method\":\"GET\",\"url\":\"https://www.google.com/search?q=perpetuum+mobile\",\"status\":200,\"contentMatched\":true,\"statusMatched\":true}"
+}

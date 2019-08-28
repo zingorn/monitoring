@@ -1,0 +1,6 @@
+.idea
+target
+*.iml
+*.http
+dependency-reduced-pom.xml
+/docker_logs/*.log

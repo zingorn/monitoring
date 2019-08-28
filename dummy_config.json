@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "type": "http",
+      "url": "http://localhost:8080/api/health",
+      "headers": {
+        "header1": "val1"
+      },
+      "method": "GET",
+      "status": 418,
+      "contentRequirement": "OK",
+      "period": "*/30 * * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "https://www.facebook.com/",
+      "contentRequirement": "placeholder=\"First name\"",
+      "headers": {
+        "Accept-Language": "en,en-GB;q=0.9"
+      },
+      "period": "*/20 * * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "https://identity.flickr.com/login?redir=https%3A%2F%2Fwww.flickr.com%2F",
+      "contentRequirement": "<title>Flickr Login</title>",
+      "period": "*/10 * * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "https://identity.flickr.com/",
+      "contentRequirement": "Mordor",
+      "period": "*/10 * * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "https://www.google.com/search?q=perpetuum+mobile",
+      "contentRequirement": "<title>perpetuum mobile - Google Search</title>",
+      "headers": {
+        "Accept-Language": "en,en-GB;q=0.9"
+      },
+      "period": "*/10 * * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "http://gmail.com",
+      "contentRequirement": ".*For Work.*Sign in.*",
+      "period": "0 */2 * * * ?"
+    },
+    {
+      "type": "http",
+      "url": "https://www.domain.co.uk/",
+      "contentRequirement": "OK",
+      "period": "*/30 * * * * ?"
+    }
+  ]
+}
